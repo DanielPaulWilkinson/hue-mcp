@@ -40,5 +40,3 @@ Colour temperature takes `mirek` (153 to 500) or `kelvin` (2000 to 6500, convert
 - Only talks to `api.meethue.com` over HTTPS using your own OAuth sign-in; nothing is sent anywhere else.
 - Runs on your own machine over stdio. It does not open a port, apart from the one-off sign-in callback on localhost.
 - Anyone who can run it can control your lights, so keep the token file private.
-
-MIT licence.
